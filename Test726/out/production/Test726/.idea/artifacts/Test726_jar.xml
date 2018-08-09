@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Test726_jar</output-path>
     <root id="archive" name="Test726.jar">
       <element id="module-output" name="Test726" />
-      <element id="extracted-dir" path="E:/st/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
