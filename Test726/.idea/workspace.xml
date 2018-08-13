@@ -6,11 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f47710-4209-47a7-aaeb-292074afba7c" name="Default" comment="添加库文件">
+    <list default="true" id="73f47710-4209-47a7-aaeb-292074afba7c" name="Default" comment="添加通过INI配置删除时间；&#10;通过添加INI配置删除文件夹位置；&#10;INI位置在：C:\config.ini">
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/changeReportTime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/src/com/zhouwei/ChangeReportTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeReportTime/src/com/zhouwei/changetime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test726.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test726.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/www/zhouwei/hina/DeleteVol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/www/zhouwei/hina/DeleteVol.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,20 +70,22 @@
     <session id="-1157611648">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="251" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="251" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
     </session>
@@ -90,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/www/zhouwei/hina/DeleteVol.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,20 +132,22 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
-    <option name="y" value="286" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533829144962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533829334712" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/org.dtools.javaini-v1.1.00.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -253,7 +261,8 @@
       <workItem from="1532595462470" duration="1127000" />
       <workItem from="1532699502431" duration="2061000" />
       <workItem from="1532747331331" duration="11031000" />
-      <workItem from="1533819001154" duration="4378000" />
+      <workItem from="1533819001154" duration="4644000" />
+      <workItem from="1533955615734" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="添加库文件">
       <created>1533819594930</created>
@@ -262,17 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1533819594930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加通过INI配置删除时间；&#10;通过添加INI配置删除文件夹位置；&#10;INI位置在：C:\config.ini">
+      <created>1533829298913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533829298913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18597000" />
+    <option name="totallyTimeSpent" value="19189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,7 +296,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7639939" visible="true" weight="0.33114755" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7639939" weight="0.33114755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,7 +325,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加库文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加库文件" />
+    <MESSAGE value="添加通过INI配置删除时间；&#10;通过添加INI配置删除文件夹位置；&#10;INI位置在：C:\config.ini" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加通过INI配置删除时间；&#10;通过添加INI配置删除文件夹位置；&#10;INI位置在：C:\config.ini" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/zhouwei/jsp/sevelet.java" />
@@ -336,7 +352,7 @@
     <entry file="file://$PROJECT_DIR$/src/www/zhouwei/hina/DeleteVol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
