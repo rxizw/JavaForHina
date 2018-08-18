@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8264324-b4dc-4b7c-a96e-fd0b6082974b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CPSpace/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CPSpace/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CPSpace/src/main/java/com/zhouwei0818/SpaceRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CPSpace/.idea/libraries/poi_3_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPSpace/src/main/java/com/zhouwei0818/SpaceRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CPSpace/src/main/java/com/zhouwei0818/SpaceRead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +18,7 @@
     <session id="-563053047">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="1" />
@@ -132,7 +131,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1126" />
@@ -265,7 +264,7 @@
     <option name="totallyTimeSpent" value="8425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
