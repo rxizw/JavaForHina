@@ -37,7 +37,7 @@ public class SpaceRead {
                 row.createCell(0).setCellValue(fsv.getSystemDisplayName(fs[i]));
                 row.createCell(1).setCellValue(FormatFilesSize(fs[i].getTotalSpace()));
                 row.createCell(2).setCellValue(FormatFilesSize(fs[i].getFreeSpace()));
-                row.createCell(3).setCellValue(FormatFilesSize(fs[i].getTotalSpace() - fs[i].getFreeSpace()));
+                row.createCell(3).setCellValue(FormatFilesSize(fs[i].getTotalSpace()-fs[i].getFreeSpace()));
                 System.out.println(fsv.getSystemDisplayName(fs[i]));
                 System.out.println("总大小：" + FormatFilesSize(fs[i].getTotalSpace()));
                 System.out.println("剩余：" + FormatFilesSize(fs[i].getFreeSpace()));
