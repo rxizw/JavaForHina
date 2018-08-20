@@ -19,7 +19,6 @@ public class ChangeTime09 {
 //                Statement stme = conn.createStatement();
 //                String sql = " select Content from [miPlatform_Domain].[dbo].[Report] where OrderId in (select  id FROM [miPlatform_Domain].[dbo].[OrderQuery] where AccessionNumber = 'CR1871300001' )" ;
 //                ResultSet rs = stme.executeQuery(sql);
-//                //System.out.println(rs.getString("Content"));
 //                while (rs.next()){
 //                    String count = rs.getString("Content");
 //                    System.out.println(count);
@@ -48,7 +47,6 @@ public class ChangeTime09 {
 //        }
 
         //Html转换为PDF输出到页面
-        //ITextRenderer renderer = new ITextRenderer();
         convertHtmltoPdf("E:\\zwlearn\\changetime09\\temp.html","E:\\zwlearn\\changetime09\\temp.pdf");
     }
     public static boolean convertHtmltoPdf(String fileIn,String fileOut){
