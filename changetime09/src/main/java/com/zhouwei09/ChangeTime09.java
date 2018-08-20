@@ -1,6 +1,8 @@
 package com.zhouwei09;
 
 import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.pdf.BaseFont;
+import org.xhtmlrenderer.pdf.ITextFontResolver;
 import org.xhtmlrenderer.pdf.ITextRenderer;
 
 import java.io.*;
@@ -53,6 +55,16 @@ public class ChangeTime09 {
         try {
             OutputStream os = new FileOutputStream(fileOut);
             ITextRenderer renderer = new ITextRenderer();
+            ITextFontResolver fontResolver = renderer.getFontResolver();
+            //假设HTML采用的是宋体
+            try {
+                fontResolver.addFont("E:\\zwlearn\\changetime09\\lib\\simsun.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+            } catch (DocumentException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
             //ITextRenderer renderer = new ITextRenderer();
             //String
             try {
