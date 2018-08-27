@@ -17,7 +17,7 @@ public void mian(String args[]){
     } catch (SQLException e) {
         e.printStackTrace();
     }
-    //使用SQL语句实现数据统计功能
+    //使用SQL语句实现数据统计功能；
     String sql = "  select s.FullName,COUNT(*)\n" +
             "  FROM [miPlatform_Domain].[dbo].[Staff] s ,[miPlatform_Domain].[dbo].[Order] o\n" +
             "  where s.UserId = o.ApplyDoctorId\n" +
