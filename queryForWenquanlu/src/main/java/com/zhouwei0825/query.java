@@ -18,10 +18,11 @@ public void mian(String args[]){
         e.printStackTrace();
     }
     //使用SQL语句实现数据统计功能；
-    String sql = "  select s.FullName,COUNT(*)\n" +
+    String sql1 = "select s.FullName,COUNT(*)\n" +
             "  FROM [miPlatform_Domain].[dbo].[Staff] s ,[miPlatform_Domain].[dbo].[Order] o\n" +
             "  where s.UserId = o.ApplyDoctorId\n" +
             "  group by s.FullName";
+    String sql2 = "select ";
 
 
 }

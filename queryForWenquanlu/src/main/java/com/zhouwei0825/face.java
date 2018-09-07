@@ -7,12 +7,19 @@ import org.jdatepicker.JDatePicker;
 import org.jdesktop.swingx.JXDatePicker;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class face {
     public static void main(String args[]){
         //整个外部的框架
-        JFrame f = new JFrame("查询");
+        final JFrame f = new JFrame("查询");
         f.setSize(800,600);
         f.setLocation(50,50);
         f.setLayout(null);
@@ -33,17 +40,46 @@ public class face {
         JLabel lStart = new JLabel("开始日期：");
         lStart.setBounds(37,20,80,30);
         f.add(lStart);
+
+        //获取开始时间
+        String timeStart = null;
+        String timeEnd = null;
+        b.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Date timeStart = datepick.getDate();
+                Date timeEnd = datepick1.getDate();
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                String timeStart1 = formatter.format(timeStart);
+                String timeEnd1 = formatter.format(timeEnd);
+                File timeStartFile = new File("timeStart.txt");
+                try {
+                    PrintStream ps1 = new PrintStream(timeStartFile);
+                    ps1.print(timeStart1);
+                } catch (FileNotFoundException e1) {
+                    e1.printStackTrace();
+                }
+                File timeEndFile = new File("timeEnd.txt");
+                try {
+                    PrintStream ps2 = new PrintStream(timeEndFile);
+                    ps2.print(timeEnd1);
+                } catch (FileNotFoundException e1) {
+                    e1.printStackTrace();
+                }
+                System.out.println(datepick.getDate());
+                System.out.println(datepick1.getDate());
+            }
+        });
+//        b.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent e) {
+//                System.out.println(datepick.getValue());
+//            }
+//        });
+
         JLabel lStop = new JLabel("结束日期：");
         lStop.setBounds(37,60,80,30);
         f.add(lStop);
 
         //显示列表
-//        String[] columnNames = new String[]{"序号","姓名","数量"};
-//        String[][] heros = new String[][]{{"1","周伟","3"},{"2","冉旭","6"}};
-//        JTable t = new JTable(heros,columnNames);
-//        JScrollPane sp = new JScrollPane(t);
-//        t.getColumnModel().getColumn(0).setPreferredWidth(10);
-//        f.add(t,BorderLayout.CENTER);
         String[] columnNames = new String[] { "id", "name", "hp", "damage" };
         String[][] heros = new String[][] { { "1", "盖伦", "616", "100" },
                 { "2", "提莫", "512", "102" }, { "3", "奎因", "832", "200" } };
