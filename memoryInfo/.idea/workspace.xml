@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9624260-b155-46bc-95d9-571fc48d6e0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhouwei818/splite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadTest/src/main/java/Stage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadTest/src/main/java/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoIt/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoIt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoIt/src/main/java/ReceiveThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoIt/src/main/java/RemoteDoIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoIt/src/main/java/SendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoIt/src/main/java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/RemoteDoItClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/src/main/java/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/src/main/java/ReceiveThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RemoteDoItClient/src/main/java/SendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG/src/main/java/com/zhouwei/testng/RandomEmailGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG/src/main/java/com/zhouwei/testng/ZhouTestng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhouwei818/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhouwei818/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test726/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test726/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myInfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouwei818/memoryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouwei818/memoryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouwei818/memoryInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouwei818/memoryInfo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,39 +43,43 @@
     <session id="-579311711">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1137" />
+          <entry key="java" value="1264" />
           <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1137" />
+          <entry key="JAVA" value="1264" />
           <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -58,21 +87,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/memoryInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="814">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1082#1090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/splite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="88">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -93,8 +142,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhouwei818/memoryInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhouwei818/splite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhouwei818/memoryInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhouwei818/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhouwei818/test1.java" />
       </list>
     </option>
   </component>
@@ -112,8 +163,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="73" />
+    <option name="x" value="-41" />
+    <option name="y" value="14" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -125,8 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -170,8 +221,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536659282389" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThreadTest" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539255594531" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -191,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.splite">
+  <component name="RunManager" selected="Application.test">
     <configuration name="memoryInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhouwei818.memoryInfo" />
       <module name="memoryInfo" />
@@ -218,14 +269,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhouwei818.test" />
+      <module name="memoryInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhouwei818.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.memoryInfo" />
       <item itemvalue="Application.splite" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.splite" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.memoryInfo" />
+        <item itemvalue="Application.splite" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +308,9 @@
       <workItem from="1534581054223" duration="1600000" />
       <workItem from="1536297869373" duration="1658000" />
       <workItem from="1536645545863" duration="8468000" />
+      <workItem from="1538393073286" duration="1469000" />
+      <workItem from="1538812030558" duration="1593000" />
+      <workItem from="1540449063296" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="获取计算机内存信息！">
       <created>1534583569405</created>
@@ -261,13 +330,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11726000" />
+    <option name="totallyTimeSpent" value="14863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="73" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-41" y="14" width="1382" height="744" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,7 +344,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20655738" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3114754" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,19 +397,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/memoryInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="814">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1082#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/splite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhouwei818/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

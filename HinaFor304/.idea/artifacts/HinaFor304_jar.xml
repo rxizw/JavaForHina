@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="HinaFor304:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HinaFor304_jar</output-path>
+    <root id="root">
+      <element id="archive" name="HinaFor304.jar">
+        <element id="module-output" name="HinaFor304" />
+      </element>
+      <element id="library" level="project" name="commons-net-3.6" />
+    </root>
+  </artifact>
+</component>

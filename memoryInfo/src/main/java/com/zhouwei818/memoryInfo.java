@@ -30,8 +30,12 @@ public class memoryInfo {
         //读取文本内容，并找到我需要的进程详细信息
         List<String> strs = new ArrayList<String>();
         String pattern = ".*rome.*";
+        String pattern1 = "mysql.*";
+        String pattern2 = "java.*";
         File file1 = new File("info.txt");
         getInfo(strs,pattern);
+        getInfo(strs,pattern1);
+        getInfo(strs,pattern2);
 
         //把文件保存在文件夹myInfo中
         for(int i = 0;i<strs.size();i++){
@@ -68,7 +72,6 @@ public class memoryInfo {
         }
     }
 private static void getMatch(List<String> strs, String lineTxt,String pattern) {
-    //Pattern p = Pattern.compile(".*WeChat.exe.*");
     Pattern p = Pattern.compile(pattern);
     Matcher m = p.matcher(lineTxt);
     boolean result = m.find();

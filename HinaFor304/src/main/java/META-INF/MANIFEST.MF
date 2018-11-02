@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: commons-net-3.6.jar
+Main-Class: com.hinafor304.zhouwei.RestartImageServer
+
